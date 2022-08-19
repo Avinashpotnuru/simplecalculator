@@ -1,0 +1,51 @@
+.App {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  background-color: bisque;
+  
+}
+.mainContainer{
+  box-shadow: 5px;
+  border: 5px #ebc634;
+
+
+}
+
+button {
+  color: black;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 14px;
+  border-color: black;
+  font-weight: 900;
+}
+span{
+  height: 40px;
+  min-width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  background-color: white;
+  font-weight: bold;
+}
+.secondContainer{
+  display: flex;
+  
+}
+.firstContainer{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.clean{
+  background-color: #ebc634;
+  font-weight: bold;
+}
