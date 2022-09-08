@@ -1,13 +1,28 @@
-.App {
- 
+.mainbg{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
+  
+  background-image: linear-gradient(rgb(234, 237, 180),rgb(241, 95, 120));
   background-size: cover;
-  width: 100%;
-  background-color: bisque;
+}
+
+.App {
+  min-height: 600px;
+  width: 450px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #34ebc0 4px solid;
+ 
+ 
+ 
+ 
   
 }
 .mainContainer{
@@ -37,6 +52,7 @@ span{
 }
 .secondContainer{
   display: flex;
+  justify-content: space-between;
   
 }
 .firstContainer{
@@ -46,6 +62,10 @@ span{
 }
 
 .clean{
-  background-color: #ebc634;
+  background-color:#fc7f03 ;
   font-weight: bold;
+
+}
+.equal{
+  background-color: #03adfc;
 }
